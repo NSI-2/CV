@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #ddd;
+}
+
+#nav {
+    z-index: 999;
+    position: fixed;
+    overflow: hidden;
+    padding: 80px 10px;
+    transition: 0.3s;
+    top: 0px;
+    width: 100%;
+    background-color: #1E2D3B;
+}
+
+#nav button,
+h1,
+#date {
+    color: white;
+    text-align: center;
+    float: left;
+    border-radius: 3.5px;
+    font-size: 20px;
+    line-height: 25px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+#nav button:hover,
+h1:hover {
+    color: black;
+    background-color: lightslategray;
+}
+
+#gauche h1 {
+    transition: 0.3s;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+}
+
+#droite {
+    float: right;
+    padding-top: 30px;
+}
+
+.select {
+    background-color: lightslategray;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    clear: both;
+    position: relative;
+    height: 50px;
+    font-style: italic;
+    font-size: 12px;
+    left: 0;
+    bottom: 0;
+    background-color: #1E2D3B;
+    color: white;
+    text-align: center;
+    height: 80px;
+}
+
+#footer a:link,
+#footer a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#license {
+    position: relative;
+    left: 780px;
+}
+
+/* Index */
+#first {
+    display: block;
+    margin: 300px auto 0 auto;
+    width: 500px;
+    align-content: center;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    box-shadow: 14px 0px 46px 1px rgba(94, 90, 94, 1);
+    border-radius: 1%;
+
+}
+
+#wrapper p {
+    color: black;
+    background-color: ghostwhite;
+    padding: 1% 5% 1% 5%;
+    font-size: 25px;
+    justify-content: center;
+
+}
+
+#p1 {
+    padding-top: 0px;
+}
+
+#wrapper a:link,
+#wrapper a:visited {
+    color: black;
+    text-decoration: none;
+    border: solid #778899 2px;
+    border-radius: 5%;
+}
+
+#wrapper a:active,
+#wrapper a:hover {
+    color: white;
+    background-color: #1E2D3B;
+    text-decoration: none;
+    border-radius: 5%;
+
+}
+
+/* fin de Index */
+/* Cv */
+#cvWrapper {
+    margin-top: 280px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#cvGauche {
+    width: 33%;
+    height: 1080px;
+    align-content: center;
+
+}
+
+#cvDroite {
+    padding-left: 10px;
+}
+
+ul.listeCv {
+    list-style: square;
+}
+
+.progressM {
+    background-color: #1E2D3B;
+    width: 100%;
+}
+
+.progressA {
+    background-color: #1E2D3B;
+    width: 100%;
+}
+
+.progressF {
+    background-color: #1E2D3B;
+    width: 80%;
+}
+
+.progressJ {
+    background-color: #1E2D3B;
+    width: 10%;
+}
+
+.inside {
+    margin-left: 0;
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.ligne {
+    border-left: 2px solid #000;
+    display: inline-block;
+    height: 1080px;
+    margin: 0 20px;
+}
+
+.comp {
+    list-style: none;
+}
+
+#cvDroite {
+    margin-left: 50px;
+}
+
+#listes li {
+    font-size: 18px;
+    padding: 20px;
+}
+
+h2 {
+    border-bottom: solid;
+}
+
+/* Fin de Cv*/

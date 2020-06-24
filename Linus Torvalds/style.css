@@ -1,0 +1,38 @@
+body {
+    color : white;
+    background-color: black;
+    background-image:url("images/Smash.jpg");
+    background-position: center center;
+    background-repeat:no-repeat;
+    margin-left:150px;
+    margin-right: 150px;
+}
+
+h1 {
+    color:red;
+    font-size:200%;
+    font-family:'American Typewriter', serif;
+    text-align:Center;
+}
+
+p {
+    font-family:Cursive;
+    font-size:90%;
+    text-align: left;
+
+}
+
+@font-face {
+    font-family: 'American Typewriter';
+    font-style: normal;
+    font-weight: normal;
+    src: local('American Typewriter'), 
+    url('ufonts.com_american-typewriter.woff') format('woff');
+        }
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+a {
+    color:blue
+}

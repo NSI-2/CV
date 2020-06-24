@@ -1,0 +1,49 @@
+body{
+  background-image: url(bg.jpg);
+  background-repeat: repeat;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2vw;
+}
+img{
+  position: absolute;
+  width: 18vw;
+  height: auto;
+}
+#KM{
+  top: 10vw;
+  left: 0px;
+}
+#JSM{
+  top: 10vw;
+  left: 41vw;
+}
+#CL{
+  top: 10vw;
+  right: 0px;
+}
+div{
+  position: absolute;
+  width: 18vw;
+  text-align: center;
+  font-size: 14pt;
+  top: 8vw;
+}
+#txtKM{
+  display: none;
+  left: 0px;
+}
+#txtJSM{
+  display: none;
+  left: 41vw;
+}
+#txtCL{
+  display: none;
+  right: 0px;
+}
+table{
+  position: absolute;
+  top: 75vh;
+}
+.KM-JSM{
+  width: 66%;
+}

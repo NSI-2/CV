@@ -1,0 +1,48 @@
+body
+{
+    background-color:#D3E8EC;
+}
+
+  h2
+{
+    font-size: 40px;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+p3
+{ 
+    padding-left: 100px;
+    font-size: 20px;
+}
+img {
+        padding-left: 450px;
+	width: 450px;
+	height: 300px;
+}
+a
+{
+    font-size: 20px;
+}
+s
+{
+    font-size: 20px;
+}
+#maDiv{
+	width : 200px;
+	height : 100px;
+	margin : 0 auto;
+	border : 2px solid black;
+}
+.rouge {
+	background-color:red;
+}
+.blanc {
+	background-color : white;
+}
+a1 {
+    font-size: 20px;
+    display:flex;
+    margin-left: 23%;
+    margin-top: 10%;
+}

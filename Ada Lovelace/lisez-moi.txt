@@ -1,0 +1,2 @@
+Pour les liens entre les différentes pages du site, je n'en ai mis qu'un seul (je n'ai pas eu d'idée), c'est "mathématiques" dans l'index.
+Pour les scripts JavaScript, il y en a 2, le premier affiche la date en dessous du titre en haut à gauche de la page, le second réduit le menu de navigation lorsque l'utilisateur scoll vers le bas.

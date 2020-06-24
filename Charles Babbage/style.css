@@ -1,0 +1,69 @@
+body{
+  background-image: url(bg.jpg);
+  background-repeat: repeat;
+  font-family: 'Times New Roman', Times, serif;
+}
+#titre{
+  font-size: 5vw;
+  color: black;
+}
+#profil{
+  display: inline-block;
+  width: 15vw;
+  height: auto;
+  border-color: black;
+  border-width: 10px;
+  border-style: groove;
+}
+.sign{
+  width: 15vw;
+}
+.entête{
+  text-align: center;
+}
+.corps{
+  text-align: left;
+  font-size: 20pt;
+  table-layout: bot;
+}
+th{
+  font-size: 24pt;
+}
+.button{
+  background-color: white;
+  border-width: 3px;
+  border-style: double;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: inline-block;
+}
+table.corps td{
+  width: 50%;
+}
+td{
+  width: 33%;
+}
+table{
+  width: 100%;
+  text-align: center;
+}
+.inv{
+  display: inline-block;
+  width: 15vw;
+  height: auto;
+}
+.link{
+  text-align: right;
+}
+table.corps td, table.corps th{
+  border-bottom: 1px solid black;
+}
+.pied{
+  font-size: 10px;
+}
+.doigt-pointé{
+  display: inline-block;
+  width: 2vw;
+  height: auto;
+}

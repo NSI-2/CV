@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <link href="css.css" rel="stylesheet" type="text/css" media="all" />
+
+    <title>Accueil</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <div id="gauche">
+            <h1>Ada Lovelace <p id="date"></p>
+            </h1>
+
+        </div>
+        <div id="droite">
+            <a id="index" href="index.html"><button>la vie d'Ada Lovelace</button></a>
+            <a id="cv"><button class="select">Son Cv</button></a>
+        </div>
+    </nav>
+    <div id="cvWrapper">
+        <div id="cvGauche">
+            <img src="Portrait.jpg" id="portrait" alt="Portrait de Ada Lovelace">
+            <div id="fiche">
+                <h2>Fiche d'indentité:</h2>
+                <ul class="listeCv">
+                    <li>Nom: Lovelace</li>
+                    <li>Prénom: Ada</li>
+                    <li>Titre: Comtesse de Lovelace</li>
+                    <li>Date de Naissance: 10/12/1815</li>
+                    <li>Points caractéristique: Très intelligente, Accro au jeux d'argents, santé faible</li>
+                </ul>
+                <h2>Compétences</h2>
+                <ul class="comp">
+                    <li>
+                        <p>Maths</p>
+                        <div class="progressM" id="maths">
+                            <div class="inside">100%</div>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Anglais</p>
+                        <div class="progressA">
+                            <div class="inside">100%</div>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Français</p>
+                        <div class="progressF">
+                            <div class="inside">80%</div>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Jeux d'argents</p>
+                        <div class="progressJ">
+                            <div class="inside">10%</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <span class="ligne"></span>
+        <div id="cvDroite">
+            <h2>Formations:</h2>
+            <ul id="listes">
+                <li>1819-1832: Différents tuteurs à la maison</li>
+                <li>1832-...: Etude poussée des mathématiques et des sciences sous l'aile de Mary Somerville</li>
+                <li>1839-1849: Etude poussé des mathématique sous l'aide de Auguste De Morgan</li>
+            </ul>
+            <h2>Expériences de travail:</h2>
+            <ul id="listes">
+                <li>Travail au coté de Charles Babbage sur la machine analytique</li>
+                <li>Création du premier programme informatique</li>
+                <li>Traduction de l'article descriptif de la machine analytique de Charles Babbage</li>
+            </ul>
+            <h2>Hommages et récompenses:</h2>
+            <ul id="listes">
+                <li>Le language "Ada" fut nommé en son honneur</li>
+                <li>Son portrait est affiché sur les hologrammes d'autification de windows 95</li>
+                <li>L'un des supercalculateur du CRNS s'appele Ada</li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="fGauche">
+            <p>Sources:</p>
+            <a href="https://femmessavantes2.pressbooks.com/chapter/ada-lovelace-mathematicienne-1815-1852/" target="_blank">Biographie d'Ada Lovelace</a><br>
+            <a href="https://www.reseau-canope.fr/docsciences/Travail-et-pensee-d-Ada-Lovelace.html" target="_blank">Doc Sciences</a><br>
+            <a href="https://www.youtube.com/watch?v=_eUOuQ5lp_0" target="_blank">Vidéo de France Culture</a>
+        </div>
+        <div id="fDroite">
+            <p id="license">EL AZDI Ayoub 105 <br> Lycée Lyautey</p>
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body></html>

@@ -1,0 +1,12 @@
+body{
+  background-color: beige;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+button{
+  background-color: blue;
+  border-width: 3px;
+}
+div{
+	text-align: center;
+}

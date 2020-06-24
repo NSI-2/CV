@@ -1,0 +1,75 @@
+body {
+		color : white;
+		background-color: black;
+		background-image:url("Wallpaper3.jpg");
+		background-position: center center;
+		background-repeat:repeat;
+		margin-left:150px;
+		margin-right: 150px;
+	}
+	
+h1 {
+		color:red;
+		font-size:400%;
+		font-family:American Typewriter, serif;
+		text-align:Center;
+	}
+
+h2 {
+		color:white;
+		font-size:200%;
+		font-family:American Typewriter, serif;
+		text-align:Center;
+	}
+
+
+p {
+		font-family: Cursive;
+		font-size:90%;
+		text-align: left;
+
+   }
+	
+@font-face {
+		font-family: 'American Typewriter';
+		font-style: normal;
+		font-weight: normal;
+		src: local('American Typewriter'), url('ufonts.com_american-typewriter.woff') format('woff');
+			}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+DIV.p1 {
+		border: 5px ridge blue;
+		background-color: none;
+		padding: .5rem;
+		display: flex;
+		flex-direction: column;
+		width: 25%;
+		position : absolute;
+		top : 150px; right : 50px;
+		}
+DIV.p2 {
+		border: 5px ridge blue;
+		background-color: none;
+		padding: .5rem;
+		display: flex;
+		flex-direction: column;
+		width: 25%;
+		position : absolute;
+		top : 150px; left : 50px;
+		}
+DIV.p3 {
+		border: 5px ridge blue;
+		background-color: none;
+		padding: .5rem;
+		display: flex;
+		flex-direction: column;
+		width: 25%;
+		position : absolute;
+		top : 150px; left : 475px;
+		}
+	
