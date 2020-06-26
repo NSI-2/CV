@@ -2,11 +2,22 @@ body{
   background-color: beige;
   margin-left: 10vw;
   margin-right: 10vw;
+  font-size: 18px;
 }
-button{
-  background-color: blue;
-  border-width: 3px;
+a:link,
+a:visited {
+    color: black;
+    text-decoration: none;
+    border: solid #778899 2px;
+    border-radius: 5%;
 }
+
+a:active,
+a:hover {
+    color: white;
+    background-color: #1E2D3B;
+    text-decoration: none;
+    border-radius: 5%;
 div{
 	text-align: center;
 }
